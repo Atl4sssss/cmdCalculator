@@ -121,7 +121,7 @@ while True:
         print("You chose No")
         break
     else:
-        print(f"You typed '{chose}'. The Programm doesn't know that.")
+        print(f"You typed '{yn}'. The Programm doesn't know that.")
         yn = input("Do you want to try again Yes / No: ").lower()
 
 input("Press Enter to Exit...")
