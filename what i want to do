@@ -1,0 +1,5 @@
+    # Schauen das sich das Programm im CMD beim Beenden nicht grad schliesst.
+    # schauen das man das yes no in eine def packen kann.
+    # machen das man beim vertippen also bei letzten yn else nochmal die Option hat nochmal zu probieren. 
+    # das man mit end das programm jederzeit beenden kann
+    # option hinzufügen das man mehr zahlen zum rechnen geben kann
