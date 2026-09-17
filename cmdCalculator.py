@@ -508,3 +508,4 @@ while True:
     else: 
         print(f"\033[31mYou typed \033[1m'{chose_language}'.\033[0m \033[31mThat isn't a supported Language! Try again:\033[0m")
         print("------------------------------------------------------------------------")
+        
