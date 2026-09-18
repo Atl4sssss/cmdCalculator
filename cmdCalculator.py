@@ -508,5 +508,5 @@ while True:
     else: 
         print(f"\033[31mYou typed \033[1m'{chose_language}'.\033[0m \033[31mThat isn't a supported Language! Try again:\033[0m")
         print(f"\033[31mDu hast \033[1m'{chose_language}'\033[0m \033[31mgeschrieben.\033[0m \033[31mDas ist keine unterstütze Sprache! Probiere nochmal:\033[0m")
-        print(f"\033[31mTu as écrit \033[1m'{chose_language}'.\033[0m \033[31mCette langue n'est pas prise en charge! Réessayez ::\033[0m")
+        print(f"\033[31mTu as écrit \033[1m'{chose_language}'.\033[0m \033[31mCette langue n'est pas prise en charge! Réessayez:\033[0m")
         print("------------------------------------------------------------------------")
