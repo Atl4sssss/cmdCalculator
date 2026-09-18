@@ -276,6 +276,7 @@ while True:
     print("\033[36mDeutsch\033[0m")
     print("\033[38;5;27mFrançais\033[0m")
     chose_language = input("\033[33mChose your language: / Wähle eine Sprache: / Choisissez une langue:\033[0m ").title()
+    print("------------------------------------------------------------------------")
 
 
 #-------------------------------------------------------------------------------------------------------------------------|
@@ -285,7 +286,6 @@ while True:
 
     if chose_language == "English":
 
-        print("------------------------------------------------------------------------")
         print("Welcome to an Calculator coded with Python.")
         print("Just follow the steps.")
         print("You can only add 2 numbers. \033[1;95mI will not add more!\033[0m")
@@ -507,4 +507,6 @@ while True:
 #-------------------------------------------------------------------------------------------------------------------------|
     else: 
         print(f"\033[31mYou typed \033[1m'{chose_language}'.\033[0m \033[31mThat isn't a supported Language! Try again:\033[0m")
+        print(f"\033[31mDu hast \033[1m'{chose_language}'\033[0m \033[31mgeschrieben.\033[0m \033[31mDas ist keine unterstütze Sprache! Probiere nochmal:\033[0m")
+        print(f"\033[31mTu as écrit \033[1m'{chose_language}'.\033[0m \033[31mCette langue n'est pas prise en charge! Réessayez ::\033[0m")
         print("------------------------------------------------------------------------")
